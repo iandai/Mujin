@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6916FBD41942F7F800B8A1DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBD31942F7F800B8A1DA /* Foundation.framework */; };
+		6916FBD61942F7F800B8A1DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBD51942F7F800B8A1DA /* CoreGraphics.framework */; };
+		6916FBD81942F7F800B8A1DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBD71942F7F800B8A1DA /* UIKit.framework */; };
+		6916FBDE1942F7F800B8A1DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6916FBDC1942F7F800B8A1DA /* InfoPlist.strings */; };
+		6916FBE01942F7F800B8A1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916FBDF1942F7F800B8A1DA /* main.m */; };
+		6916FBE41942F7F800B8A1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916FBE31942F7F800B8A1DA /* AppDelegate.m */; };
+		6916FBE71942F7F800B8A1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6916FBE51942F7F800B8A1DA /* Main.storyboard */; };
+		6916FBEA1942F7F800B8A1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916FBE91942F7F800B8A1DA /* ViewController.m */; };
+		6916FBEC1942F7F800B8A1DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6916FBEB1942F7F800B8A1DA /* Images.xcassets */; };
+		6916FBF31942F7F800B8A1DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBF21942F7F800B8A1DA /* XCTest.framework */; };
+		6916FBF41942F7F800B8A1DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBD31942F7F800B8A1DA /* Foundation.framework */; };
+		6916FBF51942F7F800B8A1DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6916FBD71942F7F800B8A1DA /* UIKit.framework */; };
+		6916FBFD1942F7F900B8A1DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6916FBFB1942F7F900B8A1DA /* InfoPlist.strings */; };
+		6916FBFF1942F7F900B8A1DA /* MujinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916FBFE1942F7F900B8A1DA /* MujinTests.m */; };
+		6916FC091942FDEE00B8A1DA /* KanjiDict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6916FC081942FDEE00B8A1DA /* KanjiDict.plist */; };
+		6916FC1319442F4200B8A1DA /* KanjiDict.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6916FC1219442F4200B8A1DA /* KanjiDict.csv */; };
+		69743ECD194473420023BD4B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69743ECC194473420023BD4B /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6916FBF61942F7F900B8A1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6916FBC81942F7F800B8A1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6916FBCF1942F7F800B8A1DA;
+			remoteInfo = Mujin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6916FBD01942F7F800B8A1DA /* Mujin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mujin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6916FBD31942F7F800B8A1DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6916FBD51942F7F800B8A1DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6916FBD71942F7F800B8A1DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6916FBDB1942F7F800B8A1DA /* Mujin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mujin-Info.plist"; sourceTree = "<group>"; };
+		6916FBDD1942F7F800B8A1DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6916FBDF1942F7F800B8A1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6916FBE11942F7F800B8A1DA /* Mujin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mujin-Prefix.pch"; sourceTree = "<group>"; };
+		6916FBE21942F7F800B8A1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6916FBE31942F7F800B8A1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6916FBE61942F7F800B8A1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6916FBE81942F7F800B8A1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6916FBE91942F7F800B8A1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6916FBEB1942F7F800B8A1DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6916FBF11942F7F800B8A1DA /* MujinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MujinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6916FBF21942F7F800B8A1DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6916FBFA1942F7F900B8A1DA /* MujinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MujinTests-Info.plist"; sourceTree = "<group>"; };
+		6916FBFC1942F7F900B8A1DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6916FBFE1942F7F900B8A1DA /* MujinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MujinTests.m; sourceTree = "<group>"; };
+		6916FC081942FDEE00B8A1DA /* KanjiDict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KanjiDict.plist; sourceTree = "<group>"; };
+		6916FC1219442F4200B8A1DA /* KanjiDict.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KanjiDict.csv; sourceTree = "<group>"; };
+		69743ECB194473420023BD4B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		69743ECC194473420023BD4B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6916FBCD1942F7F800B8A1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBD61942F7F800B8A1DA /* CoreGraphics.framework in Frameworks */,
+				6916FBD81942F7F800B8A1DA /* UIKit.framework in Frameworks */,
+				6916FBD41942F7F800B8A1DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916FBEE1942F7F800B8A1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBF31942F7F800B8A1DA /* XCTest.framework in Frameworks */,
+				6916FBF51942F7F800B8A1DA /* UIKit.framework in Frameworks */,
+				6916FBF41942F7F800B8A1DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6916FBC71942F7F800B8A1DA = {
+			isa = PBXGroup;
+			children = (
+				6916FBD91942F7F800B8A1DA /* Mujin */,
+				6916FBF81942F7F900B8A1DA /* MujinTests */,
+				6916FBD21942F7F800B8A1DA /* Frameworks */,
+				6916FBD11942F7F800B8A1DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6916FBD11942F7F800B8A1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6916FBD01942F7F800B8A1DA /* Mujin.app */,
+				6916FBF11942F7F800B8A1DA /* MujinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6916FBD21942F7F800B8A1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6916FBD31942F7F800B8A1DA /* Foundation.framework */,
+				6916FBD51942F7F800B8A1DA /* CoreGraphics.framework */,
+				6916FBD71942F7F800B8A1DA /* UIKit.framework */,
+				6916FBF21942F7F800B8A1DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6916FBD91942F7F800B8A1DA /* Mujin */ = {
+			isa = PBXGroup;
+			children = (
+				6916FBE21942F7F800B8A1DA /* AppDelegate.h */,
+				6916FBE31942F7F800B8A1DA /* AppDelegate.m */,
+				6916FBE51942F7F800B8A1DA /* Main.storyboard */,
+				6916FBE81942F7F800B8A1DA /* ViewController.h */,
+				6916FBE91942F7F800B8A1DA /* ViewController.m */,
+				69743ECB194473420023BD4B /* DetailViewController.h */,
+				69743ECC194473420023BD4B /* DetailViewController.m */,
+				6916FC081942FDEE00B8A1DA /* KanjiDict.plist */,
+				6916FBEB1942F7F800B8A1DA /* Images.xcassets */,
+				6916FBDA1942F7F800B8A1DA /* Supporting Files */,
+			);
+			path = Mujin;
+			sourceTree = "<group>";
+		};
+		6916FBDA1942F7F800B8A1DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6916FC1219442F4200B8A1DA /* KanjiDict.csv */,
+				6916FBDB1942F7F800B8A1DA /* Mujin-Info.plist */,
+				6916FBDC1942F7F800B8A1DA /* InfoPlist.strings */,
+				6916FBDF1942F7F800B8A1DA /* main.m */,
+				6916FBE11942F7F800B8A1DA /* Mujin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6916FBF81942F7F900B8A1DA /* MujinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6916FBFE1942F7F900B8A1DA /* MujinTests.m */,
+				6916FBF91942F7F900B8A1DA /* Supporting Files */,
+			);
+			path = MujinTests;
+			sourceTree = "<group>";
+		};
+		6916FBF91942F7F900B8A1DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6916FBFA1942F7F900B8A1DA /* MujinTests-Info.plist */,
+				6916FBFB1942F7F900B8A1DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6916FBCF1942F7F800B8A1DA /* Mujin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6916FC021942F7F900B8A1DA /* Build configuration list for PBXNativeTarget "Mujin" */;
+			buildPhases = (
+				6916FBCC1942F7F800B8A1DA /* Sources */,
+				6916FBCD1942F7F800B8A1DA /* Frameworks */,
+				6916FBCE1942F7F800B8A1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mujin;
+			productName = Mujin;
+			productReference = 6916FBD01942F7F800B8A1DA /* Mujin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6916FBF01942F7F800B8A1DA /* MujinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6916FC051942F7F900B8A1DA /* Build configuration list for PBXNativeTarget "MujinTests" */;
+			buildPhases = (
+				6916FBED1942F7F800B8A1DA /* Sources */,
+				6916FBEE1942F7F800B8A1DA /* Frameworks */,
+				6916FBEF1942F7F800B8A1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6916FBF71942F7F900B8A1DA /* PBXTargetDependency */,
+			);
+			name = MujinTests;
+			productName = MujinTests;
+			productReference = 6916FBF11942F7F800B8A1DA /* MujinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6916FBC81942F7F800B8A1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.yumemi.ian;
+				TargetAttributes = {
+					6916FBF01942F7F800B8A1DA = {
+						TestTargetID = 6916FBCF1942F7F800B8A1DA;
+					};
+				};
+			};
+			buildConfigurationList = 6916FBCB1942F7F800B8A1DA /* Build configuration list for PBXProject "Mujin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6916FBC71942F7F800B8A1DA;
+			productRefGroup = 6916FBD11942F7F800B8A1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6916FBCF1942F7F800B8A1DA /* Mujin */,
+				6916FBF01942F7F800B8A1DA /* MujinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6916FBCE1942F7F800B8A1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBEC1942F7F800B8A1DA /* Images.xcassets in Resources */,
+				6916FBDE1942F7F800B8A1DA /* InfoPlist.strings in Resources */,
+				6916FC091942FDEE00B8A1DA /* KanjiDict.plist in Resources */,
+				6916FC1319442F4200B8A1DA /* KanjiDict.csv in Resources */,
+				6916FBE71942F7F800B8A1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916FBEF1942F7F800B8A1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBFD1942F7F900B8A1DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6916FBCC1942F7F800B8A1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBEA1942F7F800B8A1DA /* ViewController.m in Sources */,
+				6916FBE41942F7F800B8A1DA /* AppDelegate.m in Sources */,
+				6916FBE01942F7F800B8A1DA /* main.m in Sources */,
+				69743ECD194473420023BD4B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916FBED1942F7F800B8A1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916FBFF1942F7F900B8A1DA /* MujinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6916FBF71942F7F900B8A1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6916FBCF1942F7F800B8A1DA /* Mujin */;
+			targetProxy = 6916FBF61942F7F900B8A1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6916FBDC1942F7F800B8A1DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6916FBDD1942F7F800B8A1DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6916FBE51942F7F800B8A1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6916FBE61942F7F800B8A1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6916FBFB1942F7F900B8A1DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6916FBFC1942F7F900B8A1DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6916FC001942F7F900B8A1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6916FC011942F7F900B8A1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6916FC031942F7F900B8A1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mujin/Mujin-Prefix.pch";
+				INFOPLIST_FILE = "Mujin/Mujin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6916FC041942F7F900B8A1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mujin/Mujin-Prefix.pch";
+				INFOPLIST_FILE = "Mujin/Mujin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6916FC061942F7F900B8A1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mujin.app/Mujin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mujin/Mujin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MujinTests/MujinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6916FC071942F7F900B8A1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mujin.app/Mujin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mujin/Mujin-Prefix.pch";
+				INFOPLIST_FILE = "MujinTests/MujinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6916FBCB1942F7F800B8A1DA /* Build configuration list for PBXProject "Mujin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916FC001942F7F900B8A1DA /* Debug */,
+				6916FC011942F7F900B8A1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6916FC021942F7F900B8A1DA /* Build configuration list for PBXNativeTarget "Mujin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916FC031942F7F900B8A1DA /* Debug */,
+				6916FC041942F7F900B8A1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6916FC051942F7F900B8A1DA /* Build configuration list for PBXNativeTarget "MujinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916FC061942F7F900B8A1DA /* Debug */,
+				6916FC071942F7F900B8A1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6916FBC81942F7F800B8A1DA /* Project object */;
+}
